@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/jquery-3.5.1.min.js"></script>
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <form action="#">
+        <div class="form">
+            <textarea id="newToDoText" cols="50" rows="2" placeholder="Create new To Do..."></textarea>
+            <button type="submit" class="btn" id="btnAddToDo">Add To Do</button>
+        </div>
+    </form>
+    <div id="toDoBox" class="to_do_box">
+        <div class="to_do_box_item" id="toDo">
+            <h3 class="to_do_box_title">To Do</h3>
+            <div class="to_do_wrapper">
+                <div class="to_do_inner"></div>
+            </div>
+        </div>
+        <div class="to_do_box_item" id="inProgress">
+            <h3 class="to_do_box_title">In progress</h3>
+            <div class="to_do_wrapper">
+                <div class="in_progress_inner"></div>
+            </div>
+        </div>
+        <div class="to_do_box_item" id="done">
+            <h3 class="to_do_box_title">Done</h3>
+            <div class="to_do_wrapper">
+                <div class="done_inner"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="test"></div>
+</body>
+</html>
